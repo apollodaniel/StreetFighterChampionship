@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Street Fighters Champion"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <!-- Layout Balrog -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Balrog"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnBalrogWon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Won"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnBalrogLose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Lose"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <!-- Layout Ed -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Ed"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="92dp" />
+
+        <Button
+            android:id="@+id/btnEdWon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Won"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnEdLose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Lose"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <!-- Layout Bison -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Bison"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btnBisonWon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Won"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnBisonLose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Lose"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnWhoWon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Who won?"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnShowPlacement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show placement"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnResetResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset results"
+        android:textAllCaps="false" />
+</LinearLayout>

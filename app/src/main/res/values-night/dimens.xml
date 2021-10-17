@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="space_weight" type="dimen" format="float">1</item>
+</resources>
